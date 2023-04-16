@@ -1,0 +1,19 @@
+﻿@model BookPhone.Models.Contact
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Контакт добавлен!</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="text-center">
+        <h1>Контакт <i>@Model.FirstName @Model.MiddleName @Model.LastName</i>  успешно изменён!</h1>
+        <a asp-action="Index" class="btn btn-primary">Все контакты</a>.
+
+    </div>
+</body>
+</html>
